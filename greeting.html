@@ -17,13 +17,15 @@
            return (
              <div>
                <h1>Hello {this.props.name}!</h1>
+               <h2>Welcome {this.props.name} </h2>
+               <h3>This is the {this.props.program}</h3>
              </div>
            );
          }
        }
 
        ReactDOM.render(
-         <Greeting name="Bloc Student"/>, document.getElementById('app')
+         <Greeting name="Bloc Student" program="Web Developer Track"/>, document.getElementById('app')
        );
     </script>
   </body>
